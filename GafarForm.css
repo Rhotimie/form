@@ -1,0 +1,107 @@
+.container{
+/*width:960px;*/
+width: auto;
+margin:20px auto
+}
+
+ul#menus {
+margin-top:130px;
+}
+ul {
+    position: fixed;
+}
+
+ul#menus li{
+background-color: pink;
+margin: 5px 0px 5px 0px;
+font-size: 30px;
+display: block;
+padding:10px;
+font-family:'Droid Serif',serif;
+border:1px solid transparent;
+border-radius: 0 50px 50px 0;
+}
+
+ul#menus li:hover {
+    background-color: white;
+}
+.main{
+float:left;
+width:min-width;
+margin-top:80px;
+}
+ul#menus #active1 {
+	background-color: #fff;
+}
+
+fieldset{
+display:none;
+width:700px;
+padding:10px;
+margin-top:50px;
+margin-left:20px;
+margin-right:20px;
+border-radius:5px;
+box-shadow:3px 3px 25px 1px gray;
+}
+#first{
+display:block;
+width:700px;
+padding:20px;
+margin-top:50px;
+border-radius:5px;
+margin-left:85px;
+box-shadow:3px 3px 25px 1px gray;
+}
+input[type=text],input[type=password],select{
+width:100%;
+margin:10px 0;
+height:40px;
+padding:5px;
+border:2px solid black;
+border-radius:4px;
+}
+input[type=text]:hover,input[type=password]:hover,select:hover{
+border:2px solid #ecb0dc;
+}
+input[type=text]:focus,input[type=password]:focus,select:focus{
+border:2px solid #ecb0dc;
+}
+textarea{
+width:100%;
+margin:10px 0;
+height:70px;
+padding:5px;
+border:3px solid #ecb0dc;
+border-radius:4px;
+}
+input[type=submit],input[type=button]{
+width:120px;
+margin:15px 25px;
+padding:5px;
+height:40px;
+background-color:#99003E;
+border:none;
+border-radius:4px;
+color:#fff;
+font-family:'Droid Serif',serif;
+}
+h2,p{
+text-align:center;
+font-family:'Droid Serif',serif;
+}
+
+#bose {
+text-align: center;
+clear: left;
+}
+#bos {
+text-align: center;
+text-decoration: underline;
+}
+#ayo {
+text-align: left;	
+}
+#img {
+float: left;
+}
